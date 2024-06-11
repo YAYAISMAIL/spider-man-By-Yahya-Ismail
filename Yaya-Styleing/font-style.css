@@ -1,0 +1,106 @@
+/*------------------------<-Type-of-Font->-------------------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-type{
+    font-family: 'Poppins', sans-serif;
+}
+/*------------------------<-Font-weight->-------------------------------------*/
+.font-weight-900{
+    font-weight: 900;
+}
+
+.font-weight-800{
+    font-weight: 800;
+}
+
+.font-weight-700{
+    font-weight: 700;
+}
+
+.font-weight-600{
+    font-weight: 600;
+}
+
+.font-weight-500{
+    font-weight: 500;
+}
+
+.font-weight-400{
+    font-weight: 400;
+}
+
+/*------------------------<-Font-Size->-------------------------------------*/
+.font-size-60{
+    font-size: 60px;
+}
+.font-size-55{
+    font-size: 55px;
+}
+.font-size-50{
+    font-size: 50px;
+}
+.font-size-45{
+    font-size: 45px;
+}
+.font-size-40{
+    font-size: 40px;
+}
+.font-size-35{
+    font-size: 35px;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.font-size-22{
+    font-size: 22px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-10{
+    font-size: 10px;
+}
+/*------------------------<-Font-color->-------------------------------------*/
+.font-black{
+    color: #000;
+}
+.font-white{
+    color: #fff;
+}
+.font-red{
+    color: #f00;
+}
+.font-green{
+    color: #0f0;
+}
+.font-yellow{
+    color: #f0c808;
+}
+.font-blue{
+    color: #00f;
+}
+
+.font-pink{
+    color: #ff305b;
+}
+

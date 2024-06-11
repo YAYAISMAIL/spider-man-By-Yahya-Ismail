@@ -1,0 +1,29 @@
+/*------------------------<-Justify-text->-------------------------------------*/
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+/*----------------------<-text-Decoration-removal->-----------------------------*/
+.text-decoration-none{
+    text-decoration: none;
+}
+/*----------------------<-list-style-removal->-----------------------------------*/
+.list-style-none{
+    list-style: none;
+}
+
+/*----------------------<-Text-format->------------------------------------------*/
+.text-upper{
+    text-transform: uppercase;
+}
+
+.text-justify{
+    text-align: justify;
+}

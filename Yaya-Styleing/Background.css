@@ -1,0 +1,54 @@
+.Bg-black{
+    background-color: #000;
+}
+
+.Bg-glossy-black{
+    background-color: #0000002b;
+}
+
+.Bg-white{
+    background-color: #fff;
+}
+
+.Bg-red{
+    background-color: #f00;
+}
+
+.Bg-green{
+    background-color: #0f0;
+}
+
+.Bg-blue{
+    background-color: #07f;
+}
+
+.Bg-yellow{
+    background-color: #f0c808;
+}
+
+.Bg-pink{
+    background-color: #ff305b;
+}
+
+
+.Bg-f1{
+    background-color: #f1f1f1;
+}
+
+.Bg-333{
+    background-color: #333;
+}
+
+
+.Bg-Custom{
+    background-image: url(../img/Spider-Man-Marvel2.2.png);
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px 0px #4b0088, -1px -1px 0px #4b0088;
+    box-shadow: 2px 2px 15px #4b0088;
+    font-weight: bold;
+}
+
+.Bg-Custom2{
+    background-color: #0000000a;
+}

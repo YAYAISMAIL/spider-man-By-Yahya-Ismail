@@ -1,0 +1,266 @@
+/*-----------------------Motion-----------------------------------*/
+.anime-motionX{
+    animation: motionX 1s ease-in-out infinite alternate;
+}
+
+@keyframes motionX {
+    from{
+        translate: 0% 0px;
+    }
+    to{
+        translate: 445px 0px;
+    }
+}
+
+.anime-motionX-rever{
+    animation: motionX-rev 1s ease-in-out infinite alternate;
+}
+
+@keyframes motionX-rev {
+    from{
+        translate: 0% 0px;
+    }
+    to{
+        translate: -445px 0px;
+    }
+}
+
+.anime-motionY{
+    animation: motionY 1s ease-in-out infinite alternate;
+}
+
+@keyframes motionY {
+    from{
+        translate: 0px 0px;
+    }
+    to{
+        translate: 0px 15px;
+    }
+}
+
+.anime-motionY2{
+    animation: motionY2 1s ease-in-out infinite alternate;
+}
+
+@keyframes motionY2 {
+    from{
+        translate: 0px -2px;
+    }
+    to{
+        translate: 0px 4px;
+    }
+}
+
+
+/*-----------------------Box-shadow-----------------------------------*/
+.box-shadow-skyblue{
+    animation: shadow-anime-skyblue 0.5s ease infinite alternate;
+}
+
+@keyframes shadow-anime-skyblue {
+    from{
+        box-shadow: 1px 1px 15px #0cf, -1px -1px 5px #f0f;
+    }
+
+    to{
+        box-shadow: 1px 1px 15px #f0f, -1px -1px 5px #0cf;
+    }
+}
+
+
+/*-----------------------typing-----------------------------------*/
+.type::after{
+    content: "P";
+    margin: 0;
+    font-size: 34px;
+    color: #f0c808;
+    text-shadow: 2px 1px 0px red;
+    /* position: absolute;
+    z-index: 22;
+    bottom: 0;
+    left: 0; */
+
+    animation: typing 6s steps(12) 0.2s infinite alternate both;
+}
+
+@keyframes typing {
+    0%{
+        content: "P";
+    }
+    4%{
+        content: "Pr";
+    }
+    8%{
+        content: "Pro";
+    }
+    10%{
+        content: "Prof";
+    }
+    12%{
+        content: "Profe";
+    }
+    14%{
+        content: "Profes";
+    }
+    16%{
+        content: "Profess";
+    }
+    18%{
+        content: "Professi";
+    }
+    20%{
+        content: "Professio";
+    }
+    22%{
+        content: "Profession";
+    }
+    24%{
+        content: "Professiona";
+    }
+    26%{
+        content: "Professional";
+    }
+    28%{
+        content: "Professional ";
+    }
+    30%{
+        content: "Professional W";
+    }
+    32%{
+        content: "Professional We";
+    }
+    34%{
+        content: "Professional Web";
+    }
+    36%{
+        content: "Professional Web ";
+    }
+    38%{
+        content: "Professional Web D";
+    }
+    40%{
+        content: "Professional Web De";
+    }
+    42%{
+        content: "Professional Web Des";
+    }
+    44%{
+        content: "Professional Web Desi";
+    }
+    46%{
+        content: "Professional Web Desig";
+    }
+    48%{
+        content: "Professional Web Design";
+    }
+    50%{
+        content: "Professional Web Designe";
+    }
+    52%{
+        content: "Professional Web Designer";
+    }
+    54%{
+        content: "Professional Web Designe";
+    }
+    56%{
+        content: "Professional Web Design";
+    }
+    58%{
+        content: "Professional Web Desig";
+    }
+    60%{
+        content: "Professional Web Desi";
+    }
+    62%{
+        content: "Professional Web Des";
+    }
+    64%{
+        content: "Professional Web De";
+    }
+    66%{
+        content: "Professional Web D";
+    }
+    68%{
+        content: "Professional Web ";
+    }
+    70%{
+        content: "Professional Web";
+    }
+    72%{
+        content: "Professional We";
+    }
+    74%{
+        content: "Professional W";
+    }
+    76%{
+        content: "Professional";
+    }
+    78%{
+        content: "Professiona";
+    }
+    80%{
+        content: "Profession";
+    }
+    82%{
+        content: "Professio";
+    }
+    84%{
+        content: "Professi";
+    }
+    86%{
+        content: "Profess";
+    }
+    88%{
+        content: "Profes";
+    }
+    90%{
+        content: "Profe";
+    }
+    92%{
+        content: "Prof";
+    }
+    94%{
+        content: "Pro";
+    }
+    96%{
+        content: "Pr";
+    }
+    100%{
+        content: "P";
+    }
+}
+
+
+/*--------------------fly-in----------------------------------------*/
+.fly-in{
+    transform: scale(1.5);
+}
+
+/*-----------------------Width-change-----------------------------------*/
+.Eplore-in{
+    animation: Explorein 1s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes Explorein {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 64%;
+    }
+}
+
+/*-----------------------------------------------------------------------------*/
+.skew-move{
+    animation: skewer 1s linear 0s infinite alternate both;
+}
+
+@keyframes skewer {
+    from{
+        transform: rotate(2.5deg);
+    }
+    to{
+        transform: rotate(-2.5deg);
+
+    }
+}

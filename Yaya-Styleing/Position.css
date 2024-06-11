@@ -1,0 +1,33 @@
+/*--------------------Postion     --------------------------------------------------------*/
+.make-it-relative{
+    position: relative;
+}
+
+.index-top{
+    z-index: 5;
+}
+
+.make-it-absolute{
+    position: absolute;
+}
+
+.top-25{
+    top: 25px;
+}
+
+.top-15{
+    top: 15px;
+}
+
+.left-25{
+    left: 25px;
+}
+
+.left-15{
+    left: 15px;
+}
+
+/*-----------------------Over-Lay-------------------------------------------*/
+.overflow-hidden{
+    overflow: hidden;
+}

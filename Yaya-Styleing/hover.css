@@ -1,0 +1,20 @@
+.link-hover:hover{
+    color: #f60000;
+    text-shadow: 2px 2px 2px #d67900;
+}
+
+.layer-web-fx:hover{
+    background-image: url(../img/Spider-Man-Marvel3.png);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.layer-web-fx:hover .link-hover{
+    color: #f60000;
+    text-shadow: 2px 2px 1px #000000;
+}
+
+.scale:hover{
+    transform: scale(1.75);
+}
