@@ -1,0 +1,726 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    overflow: auto;
+    height: 100vh;
+    background-color: #f0c808;
+  
+}
+.warpper{
+    height: 100%;
+    /* background-color: #f0c808; */
+}
+.top-section{
+    position: relative;
+    height: 100vh;
+    background-image: url(./img/Slide-one-op2-under-navbar.jpg);
+    background-position: center center;
+    background-size: cover;
+    transform: skewY(10deg) translateY(20%);
+}
+
+.top-section .nav-bar{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.22);
+    transform: skewY(0deg);
+    padding: 20px 0px;
+}
+
+.top-section .title{
+    /* border: 2px solid red; */
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-section .title h1{
+    color: #f0c808;
+    text-shadow: 2px 1px 0px red;
+    transform: skewY(-10deg);
+    margin: 12px 0px;
+    opacity: 0.90;
+}
+.top-section .title h2{
+    transform: skewY(-10deg);
+    margin: 0;
+}
+
+.top-section .nav-bar .bar-border{
+    border-bottom: 20px solid #f0c808;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.scale{
+    transition: all 0.5s ease;
+}
+
+/*------------------Slide -1---------------------*/
+.Slide-1{
+    height: 130vh;
+    /* padding-bottom: 5px; */
+    /* border: 1px solid; */
+    /* overflow: auto; */
+}
+
+.Slide-1 .container{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 35px 0px;
+}
+
+.Slide-1 .container .description{
+    position: relative;
+}
+
+.Slide-1 .container .description h2{
+    position: relative;
+}
+
+.Slide-1 .container .description .title h2 span{
+    color: red;
+}
+
+.Slide-1 .container .description .title{
+    height: 250px;
+}
+
+.Slide-1 .container .description .title .Bg-Custom {
+    position: relative;
+    z-index: 0;
+    background-image: url(../img/Spider-Man-Marvel2.2.png);
+    background-size: cover;
+    border: 1px solid red;
+    height: 100%;
+}
+.Slide-1 .container .description .title .Bg-Custom .allinone{
+    position: absolute;
+    z-index: 22;
+    top: 0px;
+}
+
+.Slide-1 .container .description .new{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    right: 0;
+    transform: translateX(-130%) translateY(-32%);
+    filter: hue-rotate(100deg) invert(100%);
+}
+
+.Slide-1 .container .photo .col-left .name-tag{
+    position: relative;
+}
+
+.Slide-1 .container .photo .col-left .name-tag .mg{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.Slide-1 .container .photo .col-left{
+    position: relative;
+    overflow: hidden;
+}
+
+.Slide-1 .To-the-Left .btn .bot{
+    background-image: url(./img/Spider-Man-Marvel2.png);
+    background-position: center center;
+    background-size: cover;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+
+.overlay{
+    background-image: url(./Product/Transform-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    transition: all 0.7s ease;
+    border-radius: 25px;
+}
+
+.img1-hov:hover .overlay{
+    transform: translateX(-100%);
+    opacity: 0.75;
+}
+
+.Slide2{
+    height: 100vh;
+}
+
+.Slide2 .Box{
+    height: 100%;
+    background-image: url(./img/Slide-two-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    transform: skewY(-10deg);
+    position: relative;
+}
+
+.Mode1{
+ top: 25px;
+ right: 0px;
+}
+
+.Mode2{
+ top: 25px;
+ right: 0px;
+ display: none;
+}
+
+.bot-hov:hover .Mode1{
+    display: none;
+}
+
+.bot-hov:hover .Mode2{
+    display: block;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.Slide3{
+    /* background-color: green; */
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 150vh;
+}
+
+.Slide3 .title h2{
+    /* background-color: blue; */
+    text-shadow: 1px 1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, -1px -1px 0px #fff;
+    background-image: url(./img/Web-black-yahya-design-thin.2png2.png);
+    background-size: contain;
+    width: fit-content;
+    margin: auto;
+    line-height: 60px;
+    border-radius: 50px;
+    padding-inline: 20px;
+    position: relative;
+    top: 15px;
+}
+
+.Slide3 .title h2 span{
+    color: red;
+}
+
+.Slide3 .card{
+    width: calc(30% - 90.89px + 50px);
+    height: calc(525px + 275px);
+    /* border: 5px solid #f0c808; */
+    border-radius: 25px;
+    transform: scale(0.80);
+    position: relative;
+    z-index: 0;
+    bottom: 20px;
+    transition: all 0.55s ease;
+    margin: 0px;
+    background-color: #00000000 !important;
+    border: none !important;
+}
+
+.Slide3 .card .insied-card{
+    background-color: #f1f1f1;
+    position: relative;
+    z-index: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+
+.Slide3 .card:hover .tip{
+    background-image: url(./CDs/Spider-Man-Marvel-strok-3-hov.png);
+    opacity: 1;
+}
+
+.Slide3 .card:hover .img{
+    border-bottom: 5px solid #f00;
+}
+
+.Slide3 .card:hover{
+    animation: none;
+    transform: scale(0.85) translateY(0%);
+}
+
+.Slide3 .card:hover .package{
+    opacity: 1;
+}
+
+
+.Slide3 .card .tip{
+    height: 100px;
+    width: 100%;
+    background-image: url(./CDs/Spider-Man-Marvel-strok-3.png);
+    opacity: 0.65;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+    right: 0px;
+    transform: skewY(-50deg) translateY(100%) translateX(50%);
+}
+
+
+.Slide3 .card .img{
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    z-index: -5;
+    border-bottom: 5px solid #f0c808;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.Slide3 .card .img .offer-1{
+    height: 100%;
+    background-image: url(./CDs/Offer1.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.Slide3 .card .img .offer-2{
+    height: 100%;
+    background-image: url(./CDs/Offer2.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.Slide3 .card .img .offer-3{
+    height: 100%;
+    background-image: url(./CDs/Offer3.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.Slide3 .card .text{
+    height: 200px;
+    /* background-color: rgb(52, 86, 1); */
+}
+
+.Slide3 .card .Action-btn button:hover{
+    background-color: #0000bbaa;
+    color: #f0c808;
+    border: 1px solid yellow;
+    transform: scale(1.25) translateY(-10%);
+}
+
+.Slide3 .card .package{
+    height: 150px;
+    position: relative;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.75s ease-in-out;
+}
+
+.Slide3 .card .package .mg{
+     width: 100%;
+}
+
+.Slide3 .card .package .img-box{
+    width: 75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-25%);
+}
+
+.Slide3 .card .package .img-box-2{
+    width: 110%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-35%) translateY(-20%) rotate(10deg);
+}
+
+.Slide3 .card .package .img-box-3{
+    width: 75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-30%) translateY(-15%) rotate(10deg);
+}
+
+/*-----------------------------------------------------------------------*/
+.Slide4{
+    background-color: red;
+    position: relative;
+    z-index: 0;
+    border-radius: 100px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.Slide4 .jusst-an-img-of-web{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(82, 14, 14);
+    /* border-bottom-left-radius: 300px; */
+    background-image: url(./img/Slide-two.jpg);
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.90;
+    filter:  contrast(120%);
+}
+
+.Slide4 .title{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-shadow: 3px 2px 2px #000;
+}
+
+.Slide4 .title span{
+    position: relative;
+    z-index: 2;
+    color: #3c22ff;
+    text-shadow: 1px 1px 0px #ffffff,-1px 1px 0px #ffffff,1px -1px 0px #ffffff,-1px -1px 0px #ffffff;
+    font-weight: 700;
+}
+
+.Slide4  .cont{
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin: 40px auto 0px auto;
+}
+
+.Slide4 .img-border{
+    position: relative;
+    z-index: 3;
+    height: 350px;
+    width: 300px;
+    /* background-color: blue; */
+    transform: rotate(0deg) scale(1) translateX(95%);
+    box-shadow: -10px -10px 0px #f0c808;
+    border-radius: 25px;
+}
+
+
+.Slide4 .img-border .fRONT-photo{
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border: 5px solid #f0c808;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px #00000062;
+    background-image: url(./Ai-tool/img-2.jfif);
+    background-position: center center;
+    background-size: cover;
+}
+
+.Slide4 .img-border .behined-photo{
+    position: absolute;
+    z-index: 3;
+    top: 5%;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(217, 255, 0);
+    border: 5px solid #f0c808;
+    border-radius: 25px;
+    transition: transform 0.75s ease;
+    background-image: url(./Ai-tool/img-3.jfif);
+    background-position: center center;
+    background-size: cover;
+    transform: translateX(80%);
+    box-shadow: -1px -1px 10px #f0c808;
+}
+
+.Slide4 .img-border:hover .behined-photo{
+    transform: translateX(95%);
+}
+
+
+.Slide4 .img-border2{
+    position: relative;
+    z-index: 3;
+    height: 350px;
+    width: 300px;
+    transform: rotate(5deg) scale(0.75);
+    background-color: blue;
+    background-image: url(./Ai-tool/img-5.jfif);
+    background-size: cover;
+    padding: 25px;
+    border: 5px solid #f0c808;
+    border-radius: 25px;
+    box-shadow: 10px -10px 0px #f0c808;
+}
+
+
+.Slide4 .img-border2 .fRONT-photo{
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    background-color: red;
+    border: 5px solid #f0c808;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px #00000062;
+    background-image: url(./Ai-tool/img-1.jfif);
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px -1px 5px #000;
+
+}
+
+.Slide4 .img-border2 .behined-photo{
+    position: absolute;
+    z-index: 3;
+    top: 47%;
+    left: 0;
+    width: 75%;
+    height: 80%;
+    background-color: rgb(217, 255, 0);
+    border: 5px solid #f0c808;
+    border-radius: 25px;
+    transition: transform 0.75s ease;
+    background-image: url(./Ai-tool/img-4.jfif);
+    background-position: center center;
+    background-size: cover;
+    transform: translateX(-75%);
+    box-shadow: 1px -1px 5px #f0c808;
+}
+
+.Slide4 .img-border2:hover .behined-photo{
+    transform: translateX(-95%);
+}
+
+.Slide4 .but{
+    position: relative;
+    z-index: 21;
+    margin-top: 30px;
+}
+
+.Slide4 .but button{
+    padding: 5px 20px;
+    border-radius: 25px;
+    border-color: #f0c808;
+    /* transform: translateY(-100%); */
+    font-weight: 700;
+    background-color: #1e00fe56;
+    color: #fff;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------*/
+
+.slide5{
+    position: relative;
+    z-index: 0;
+    height: 95vh;
+    /* background-color: blue; */
+    margin: 50px 0px;
+
+}
+
+.slide5 .cont{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid red; */
+}
+
+.slide5 .cont video{
+    width: fit-content;
+    position: absolute;
+    z-index: 3;
+    height: 100%;
+    border-radius: 50px;
+    /* border: 5px solid violet; */
+    filter: contrast(120%);
+}
+
+.slide5 .cont .copy{
+    position: absolute;
+    z-index: 11;
+    height: 100%;
+    width: 30%;
+    right: 0;
+    position: absolute;
+    z-index: 4;
+    height: 100%;
+    background-image: url(./Package/img3.png);
+    background-position: 0px center;
+    background-size: cover;
+}
+
+.slide5 .cont .form-box{
+    position: relative;
+    z-index: 8;
+    width: 45%;
+    height: 100%;
+    /* border: 5px solid rgb(120, 0, 120); */
+    background-size: cover;
+}
+
+.slide5 .cont .form-box .form{
+    position: relative;
+    z-index: 6;
+    width: 90%;
+    height: 70%;
+    background-color: #f1f1f128;
+    /* border: 5px solid rgb(85, 0, 255); */
+    border-radius: 25px;
+    background-size: cover;
+    padding: 10px 25px;
+    margin-top: 50px;
+    overflow: hidden;
+    transform: translateY(15px);
+}
+
+.slide5 .cont .form-box .form:hover{
+    background-color: rgba(241, 241, 241, 0.35);
+}
+
+.slide5 .cont .form-box .form:hover .box-changer{
+    transform: translateX(-80%);
+}
+
+.slide5 .cont .form-box .form form h2{
+    color: #f0c808;
+    text-shadow: 2px 1px 0px #f00;
+    margin-bottom: 0;
+} 
+
+.slide5 .cont .form-box .form .inline{
+    margin-top: 0;
+}
+
+.slide5 .cont .form-box .form .inline input{
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    opacity: 0.50;
+    text-align: center;
+    border: none;
+}
+
+.slide5 .cont .form-box .form .inline input:focus{
+    opacity: 1;
+}
+
+.slide5 .cont .form-box .form .inline input::placeholder{
+    color: #f0c808;
+    text-shadow: 1px 1px 2px #f00;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.slide5 .cont .form-box .form .comment textarea{
+    resize: none;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    opacity: 0.50;
+}
+
+.slide5 .cont .form-box .form .comment textarea:focus{
+    opacity: 1;
+}
+
+.slide5 .cont .form-box .form .comment textarea::placeholder{
+    color: #f0c808;
+    text-shadow: 1px 1px 2px #f00;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.slide5 .btn{
+    position: relative;
+    z-index: 6; 
+    padding: 15px;
+    transform: translateY(-10px);
+}
+
+.slide5 .btn .btn2 .bot-hov button{
+    padding: 5px 50px;
+    border-radius: 25px;
+    background-image: url(./img/Spider-Man-Marvel2.2.png);
+    background-position: center;
+    background-size: cover;
+    color: #f0c808;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 1px 1px 0px #f00, 2px -1px 0px #f00,-1px 2px 0px #f00,-2px -1px 0px #f00;
+
+}
+
+.slide5 .btn .btn2 .bot-hov .box-changer{
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 0px;
+    right: 0px;
+    transform: translateX(100%);
+    transition: all 0.7s ease;
+}
+
+.slide6{
+    background-color: #111;
+    height: 10vh;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+.sec6 h3{
+    color: #f1f1f1;
+    font-size: 1rem;
+}
+
+.sec6 .p-fs{
+    font-size: 0.75rem;
+}
+
+.sec6 .content-info .container .row .submit-group input{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.sec6 .content-info .container .row .submit-group button{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.sec6 .content-info .container .row div ul li .footer-link{
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 16px;
+    transition: all 0.55 ease-in-out;
+}
+
+.sec6 .content-info .container .row div ul li .footer-link:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
